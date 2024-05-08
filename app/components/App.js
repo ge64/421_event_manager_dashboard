@@ -1,7 +1,8 @@
 import '../css/App.css';
 import Navbar from './Navbar';
 import HeroSection from './Hero';
-import SectionWithCards from './Section';
+import EventGrid from './EventGrid.jsx';
+import eventData from '../data/events.json';
 import Footer from './Footer';
 
 
@@ -10,7 +11,7 @@ function App() {
     <div className="App">
       <Navbar />
       <HeroSection />
-      <SectionWithCards />
+      <EventGrid events={eventData} />
       <Footer />
     </div>
   );
