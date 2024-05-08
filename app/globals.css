@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 
-:root {
+/* :root {
   --foreground-rgb: 255, 255, 255;
   --background-rgb: 230, 230, 230;
-}
-
+} */
+/* 
 body {
   color: 'black';
   background: rgb(var(--background-rgb));
-}
+} */
 
 @layer utilities {
   .text-balance {
