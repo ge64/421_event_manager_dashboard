@@ -27,7 +27,8 @@
 .eventImage {
     object-fit: cover;
     width: 100%;
-    margin-top: -6rem;
+    margin-top: -2rem;
+    margin-bottom: -2rem;
     height: 250px;
     border-top-left-radius: 0.375rem;
     border-top-right-radius: 0.375rem;
